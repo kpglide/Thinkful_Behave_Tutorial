@@ -75,7 +75,7 @@ def step_impl(context):
 def step_impl(context):
 	br = context.browser
 	br.get('http://localhost:5000')
-	tip_percentage = br.find_element_by_name("tip_percentage")
+	meal_cost = br.find_element_by_name("meal_cost")
 	meal_cost.send_keys("50")
 	tip_percentage = br.find_element_by_name("tip_percentage")
 	tip_percentage.send_keys("kevin")
