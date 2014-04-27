@@ -24,6 +24,6 @@ Feature: Confirming that the tip calculator form works
 		And return the calculator form
 
 	Scenario: check that the calculator catches entry of non-integer tip percentage
-		When I enter a non integer for meal cost
+		When I enter a non integer for tip percentage
 		Then the app should display an error message
 		And return the calculator form
